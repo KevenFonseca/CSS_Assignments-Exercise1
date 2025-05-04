@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #312f2f;
+    color: #222222;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 2.25rem; /* 36px */
+    text-align: center;
+}
+
+p {
+    font-size: 1.25rem; /* 20px */
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    margin: 40px auto;
+    padding: 0 16px;
+}
+
+.title {
+    position: absolute;
+    left: 10%;
+    top: -20px;
+    background-color: #ee53a5;
+    width: 80%;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.paragraph {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 80px 30px 30px;
+    border-radius: 10px;
+}
